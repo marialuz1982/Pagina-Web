@@ -112,7 +112,7 @@ body{
 
 .cta{
     display: inline-block;
-    background-color: burlywood;
+    background-color: #6d6875;
     justify-self: center;
     color: slateblue;
     text-decoration: none;
@@ -465,7 +465,7 @@ body{
 }
 
 .footer_icons{
-    display: inline-flex;
+    /* display: inline-flex; */
     margin-bottom: 10px;
     /* color: #f72585; */
 }
@@ -526,14 +526,10 @@ body{
     }
 
     .knowledge_container{
-        text-align: center;
-    }
-
-    .knowledge_container{
         grid-template-columns: 1fr;
         grid-template-rows: max-content 1fr;
         gap: 3em;
-
+        text-align: center;
     }
 
     .knowledge_picture{
@@ -541,7 +537,7 @@ body{
         justify-self: center;
     }
 
-    .testimony_body{
+    .testimony_contaienr{
         grid-template-columns: 30px 1fr 30px;
     }
 
@@ -555,7 +551,7 @@ body{
     .testimony_img{
         width: 200px;
         height: 200px;
-        justify-content: center;
+        /* justify-content: center; */
     } 
 
     .questions_copy{
@@ -638,10 +634,6 @@ body{
         margin-bottom: 15px;
     }
 
-    .nav--footer{
-        padding-bottom: 60px;
-    }    
-
     .footer_title{
         justify-self: start;
         margin-bottom: 15px;
@@ -650,6 +642,10 @@ body{
     .nav--footer{
         padding-bottom: 60px;
     }
+    
+    .nav_link--footer{
+        justify-content: space-between;
+    }  
 
     .footer_inputs{
         flex-wrap: wrap;
@@ -660,12 +656,7 @@ body{
         margin: 0;
         margin-bottom: 16px;
     }
-
-    .nav_link--footer{
-        /* Se pegan a las esquinas */
-        justify-content: space-between;
-    }
-
+   
     .footer_submit{
        margin: 0;
        width: 100%;
